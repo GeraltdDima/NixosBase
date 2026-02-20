@@ -21,7 +21,7 @@
   };
 
   home.file = {
-    ".config/hypr/modules".source = config.lib.file.mkOutOfStoreSymlink "/home/dima/.config/home-manager/hyprland/modules";
-    ".config/hypr/colors-hyprland.conf".source = config.lib.file.mkOutOfStoreSymlink "/home/dima/.cache/wal/colors-hyprland.conf";
+    ".config/hypr/modules".source = config.lib.file.mkOutOfStoreSymlink "./modules";
+    ".config/hypr/colors-hyprland.conf".source = config.lib.file.mkOutOfStoreSymlink "/home/$USER/.cache/wal/colors-hyprland.conf";
   };
 }
