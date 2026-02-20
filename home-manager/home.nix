@@ -12,6 +12,6 @@
   ];
 
   home.file = {
-    "Pictures/Wallpapers".source = config.lib.file.mkOutOfStoreSymlink "/home/dima/.config/home-manager/Wallpapers";
+    "Pictures/Wallpapers".source = config.lib.file.mkOutOfStoreSymlink "./Wallpapers";
   };
 }
